@@ -5,12 +5,12 @@ import Features from "./components/Features";
 import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import MusicToggle from "./components/MusicToggle"; // ⬅️ Add this import
+
 
 function App() {
     return (
         <main className="relative min-h-screen w-screen overflow-x-hidden">
-            <MusicToggle /> {/* ⬅️ Add this line */}
+          
             <NavBar />
             <Hero />
             <About />
